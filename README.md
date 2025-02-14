@@ -23,5 +23,19 @@ Welcome to **Auto Code Pusher** – the project that makes sure your code is alw
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/robotaitai/auto_commit
+   cd auto_commit
+
+
+   Ensure Git Authentication: Make sure your GitHub credentials (SSH keys or HTTPS credentials) are set up correctly to allow passwordless pushes.
+
+## Why You'll Love It
+   Consistent Activity: Keep your GitHub profile lively with regular commits.
+   Less Hassle, More Fun: Let automation handle the boring parts while you focus on building cool projects.
+   Customize to Your Heart’s Content: Tweak the script to add more features or fun messages.
+## Contributing
+   Got a cool idea or a bug fix? Fork the repo, make your changes, and send us a pull request. We love contributions that help improve our automated friend.
+
+## License
+   This project is open-sourced under the MIT License. Enjoy and share the fun!
+
