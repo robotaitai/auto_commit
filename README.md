@@ -25,7 +25,25 @@ Welcome to **Auto Code Pusher** – the project that makes sure your code is alw
    ```bash
    git clone https://github.com/robotaitai/auto_commit
    cd auto_commit
+   f
+2. **Place the Shell Script: Save the auto_commit.sh script in your repository. Make sure it's executable:** 
 
+   ```bash
+   chmod +x auto_commit.sh
+
+3. **Customize the Script (Optional): Feel free to tweak the code generation part to add your own flair or additional functionality.**
+
+   Set Up the Cron Job: Open your crontab editor:
+
+   ```bash
+   crontab -e
+3. **Add the following line to schedule the script every 2 hours:**
+
+   ```cron
+
+   0 */2 * * * /bin/bash /path/to/auto_commit/auto_commit.sh >> /path/to/auto_commit/auto_commit.log 2>&1
+
+Replace /path/to/your-repo with the actual path to your repository.
 
    Ensure Git Authentication: Make sure your GitHub credentials (SSH keys or HTTPS credentials) are set up correctly to allow passwordless pushes.
 
